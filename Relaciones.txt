@@ -1,0 +1,71 @@
+Relaciones - Sakila
+
+1.-   actor - film_actor 
+De uno a Muchos.
+
+2.-   language - film
+Una pelicula puede tener muchos lenguajes.
+uno a muchos.
+
+3.- language - film
+Una pelicula tiene un solo lenguaje original.
+uno a uno.
+
+4.-  film - film category - category.
+Muchas peliculas tienen muchas categorías.
+Muchos a Muchos.
+
+5.-  Inventory - film
+Un inventario tiene muchas peliculas.
+Uno a muchos.
+
+6.- Store - inventory
+Una tienda tiene un inventario.
+uno a uno.
+
+7.- Store - address
+Una tienda tiene una dirección.
+Uno a uno.
+
+8.- City - address
+Una ciudad tiene varias direcciones.
+Uno a muchos.
+
+9.- Country - City
+Un país tiene muchas ciudades.
+Uno a muchos.
+
+10.- customer - address
+Un cliente tiene una dirección.
+Uno a uno.
+
+11.- Inventory - rental
+Un inventario tiene muchas rentas.
+Uno a muchos.
+
+12.- Rental - payment
+Una renta tiene un pago.
+uno a uno.
+
+13.- Customer - Payment
+Un cliente tiene muchos pagos.
+Uno a muchos.
+
+14.- Staff -  Rental
+Un trabajor puede hacer muchas rentas.
+uno a muchos.
+
+15.- Store - Staff
+Una tienda tiene muchos trabajadores.
+Uno a muchos.
+
+16.- Staff - Payment
+Un trabajor puede recibir muchos pagos.
+Uno a muchos.
+
+17.- Staff - address
+Un trabajor tiene una dirección.
+Uno a uno.
+
+18.- film_actor - film
+De uno a muchos.
